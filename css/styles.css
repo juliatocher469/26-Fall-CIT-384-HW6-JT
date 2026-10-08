@@ -1,0 +1,215 @@
+/* Color Palette
+# -  white
+# -  #CCA4B4
+# -  #917278
+# -  rgb(28, 10, 0)
+  -  #ba989f
+  -  #fffefe
+  -  #ffffff
+  -  #ddd
+  -  rgb(37, 13, 0)
+  -  #A8D4FF
+  -  #94A3B3
+  -  #8c3b4a
+  -  #f9e0e0
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    background: white;
+}
+
+body {
+    font-family: "Lora", Georgia, serif;;
+    background: #CCA4B4; 
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+nav {
+    background: #917278;
+    display: flex;
+    justify-content: center;   
+    gap: 30px;                 
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(28, 10, 0);            
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* turns "About" into "ABOUT" */
+    text-decoration: none;     /* removes the underline */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    font-family: "Lora", Georgia, serif;
+    background: #ba989f;
+    color: #fffefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 30px;
+    margin: 0 0;
+}
+
+h1 {
+    font-family: "Lora", Georgia, serif;
+    font-size: 3em;
+    font-weight: light;
+    margin: 0 0 .2em;
+}
+
+h2 {
+    font-family: "Lora", Georgia, serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    margin: 0 0 .5em;
+}
+
+h3 {
+    font-family: "Lora", Georgia, serif;
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: "Lora", Georgia, serif;
+    font-size: 1.3em;
+}
+
+#tagline {
+    font-weight: light;
+    color: white;
+}
+
+#intro p {
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0;
+}
+
+#intro h2 {
+    font-weight: lighter;
+}
+
+#headshot {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #917278;
+}
+
+footer {
+    font-family: "Lora", Georgia, serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 0 .4em;
+    padding: 5px 10px;
+    background: #917278;
+    color: #ddd;
+    text-align: center;
+} 
+
+#footer {
+    color: rgb(37, 13, 0);
+}
+
+#footer p{
+    color: rgb(37, 13, 0);
+    font-weight: bold;
+}
+
+#my-contacts-heading a {
+    color: #A8D4FF;
+    margin-right: 12px;
+}
+
+#my-contacts-heading a:hover {
+    color: #94A3B3;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.job {
+    padding: 20px 0;
+    border-bottom: 3px solid #8c3b4a;  
+}
+
+.job:last-child {
+    border-bottom: none;  
+}
+
+#work-experience-heading {
+    border-bottom: 3px solid #8c3b4a;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+#work-experience {
+    background: #f9e0e0;  
+    padding: 40px 50px;
+    color: rgb(37, 13, 0);
+}
+
+#work-experience h3 {
+    font-weight: light;
+    font-size: 1.8em;
+    color: rgb(41, 36, 34);
+}
+
+.skills {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.skills-column {
+    flex: 1;               /* three equal-width columns */
+}
+
+.skills-column h4 {
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.skills-column ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+@media (max-width: 700px) {
+    .skills {
+        flex-direction: column;
+    }
+}
+
+abbr {
+    text-decoration: underline dotted;
+    cursor: help;  
+}
+
+/* Education
+------------------------------------*/
+#education {
+    background: #ba989f;   
+    padding: 40px 50px;
+    color: white;
+}
+
+#education p {
+    font-size: 16px;
+}
