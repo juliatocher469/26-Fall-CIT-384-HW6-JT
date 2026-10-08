@@ -126,6 +126,10 @@ footer {
     color: rgb(37, 13, 0);
 }
 
+#footer h2 {
+    font-weight: light;
+}
+
 #footer p{
     color: rgb(37, 13, 0);
     font-weight: bold;
