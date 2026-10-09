@@ -22,7 +22,7 @@ html {
 
 body {
     font-family: "Lora", Georgia, serif;;
-    background: #CCA4B4; 
+    /*background: #CCA4B4;*/ 
     max-width: 1100px;
     margin: 0 auto; 
 }

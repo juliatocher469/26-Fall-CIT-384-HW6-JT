@@ -1,0 +1,65 @@
+/* Color Palette
+#CCA4B4 - color 1
+#917278 - color 2
+#ba989f - color 3
+#f9e0e0 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #CCA4B4;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 19px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+#intro {
+    background: #ba989f;
+    font-family: "Playfair Display", serif;
+}
+
+#intro h1 {
+    font-weight: 550;
+    font-size: 3em;
+}
+
+#intro p {
+    font-size: 20px;
+}
+
+#tagline {
+    font-weight: 540;
+    font-size: 1.8em;
+}
+
+#footer {
+    background: #917278;
+}
+
+/* Work Experience
+------------------------------------*/
+#work-experience {
+    background: #f9e0e0;
+    font-family: "Playfair Display", serif;;
+}
+
+
+
+/* Education
+------------------------------------*/
+#education {
+    background: #ba989f;
+    font-family: "Playfair Display", serif;;
+}
